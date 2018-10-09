@@ -1,6 +1,8 @@
 # Task-B
 张天铸实习申请试题
 
+下载后 npm install （module 没有上传）
+npm start 即可在本地查看
 
 ## 表格响应式，当内容数量增加到一定数量将出现scroll限制高度
 
