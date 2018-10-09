@@ -1,0 +1,14 @@
+.main-title{
+    margin:50px 0;
+    font-size:48px;
+    text-align:center;
+}
+
+.spacer{
+    display:block;
+    margin:100px auto;
+    width:80%;
+    border:2px solid transparent;
+    border-image:linear-gradient(to left,transparent,#ccc,transparent);
+    border-image-slice:1;
+}

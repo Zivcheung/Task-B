@@ -1,0 +1,36 @@
+.table-wp{
+    /* 如果超出400px height 将会显示scroll */
+    margin:auto;
+    padding:20px;
+    max-width:785px;
+    max-height:400px;
+    border:1px solid #eee;
+    border-radius: 4px;
+    font-size:14px;
+    color:#555;
+    overflow:auto;
+}
+
+.table-wp table{
+    /* 如果屏幕 w < 450 显示scroll */
+    width:100%;
+    min-width:450px;
+}
+
+.table-wp thead{
+    color:#777;
+}
+
+.table-wp th,td{
+    padding:8px 10px;
+    text-align:left;
+    border:1px solid #ddd;  
+    
+}
+.table-wp tbody tr:nth-child(even){
+    background-color:#FAFAFA;
+}
+.table-wp tbody tr:hover{
+    background-color:rgba(204, 221, 255, 0.137);
+    
+}
